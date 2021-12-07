@@ -5,9 +5,318 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodealth - Información nutrimental en la palma de tu mano</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+  <section class="d-flex align-items-center banner__container position-relative">
+    <nav id="" class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute top-0 w-100 navbar__header container left-0 right-0 ">
+      <div id="" class="container-fluid py-2">
+        <a class="navbar-brand p-0 navbar__hide" href="#">
+          <img src="./img/Logo.png" alt="" >
+        </a>
+        <button id="toggle" class="navbar-toggler navbar__hide__button toggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="menu__blur">
+          <div class="menu__container">
+            <div class="brand">
+              <img src="./img/Logo.png" alt="" >
+              <img class="toggle" src="./img/cerrar.png" alt="" >
+            </div>
+            <ul class="links__responsive" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link desktop-small-regular" aria-current="page" href="#">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link desktop-small-regular" aria-current="page" href="#">Recetas destacadas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link desktop-small-regular" aria-current="page" href="#">Mapa de tiendas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse navbar__links--responsive " id="navbarScroll">
+          <ul class="navbar-nav color-links me-auto my-2 my-lg-0 navbar-nav-scroll navbar--links" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link desktop-small-regular" aria-current="page" href="#">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link desktop-small-regular" aria-current="page" href="#">Recetas destacadas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link desktop-small-regular" aria-current="page" href="#">Mapa de tiendas</a>
+            </li>
+          </ul>
+          <form class="d-flex container__switch">
+            <span>ES</span>
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            <span>EN</span>
+          </form>
+        </div>
+      </div>
+    </nav>
+       <div class="container col-xxl-8 px-4 py-5 hero__container">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5 hero__wrapper">
+            <div class="col-10 col-sm-8 col-lg-6 hero__right">
+              <img src="./img/banner_right_side.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="text-white">La tabla nutrimental de frutas y verduras mas completa de Peru</h1>
+              <p class="lead text-white desktop-text-regular">Conoce e informate sobre los productos saludables que mas se consumen en Perú, además, conoce recetas con las frutas y verduras mas consumidas del país.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-primary btn-lg me-md-2 icon">Ver nuestra galeria completa</button>
+              </div>
+            </div>
+          </div>
+       </div>
+    </section>
+    <section class="section main__padding bg-1">
+        <div class="container">
+          <h4 class="h4 text-center"> 
+            Algunas de las frutas y verduras que debes conocer
+          </h4>
+          <p class="desktop-text-regular text-center mt-3">
+            Conoce las frutas y frutas que son producidas en Perú
+          </p>
+          <main class="container mt-4">
+            <div class="row">
+              <div class="col">
+                <article class="card" style="width: 18rem;">
+                  <img src="./img/kion.png" class="card-img-top card__border-bottom" alt="Kión">
+                  <div class="card-body">
+                    <h5 class="card-title">Kión</h5>
+                    <p class="card-text desktop-small-regular">Este alimento es usado con frecuencia para elaborar platillos orientales, con fin...</p>
+                    <a href="#" class="btn btn-primary w-100 icon">Ver mas detalles</a>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card" style="width: 18rem;">
+                  <img src="./img/betarraga.png" class="card-img-top card__border-bottom" alt="Betarraga">
+                  <div class="card-body">
+                    <h5 class="card-title">Betarraga</h5>
+                    <p class="card-text desktop-small-regular">Este alimento es usado con frecuencia para elaborar platillos orientales, con fin...</p>
+                    <a href="#" class="btn btn-primary w-100 icon">Ver mas detalles</a>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card" style="width: 18rem;">
+                  <img src="./img/esparragos.png" class="card-img-top card__border-bottom" alt="Esparragos">
+                  <div class="card-body">
+                    <h5 class="card-title">Esparragos</h5>
+                    <p class="card-text desktop-small-regular">Este alimento es usado con frecuencia para elaborar platillos orientales, con fin...</p>
+                    <a href="#" class="btn btn-primary w-100 icon">Ver mas detalles</a>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card" style="width: 18rem;">
+                  <img src="./img/garbanzos.png" class="card-img-top card__border-bottom" alt="Garbanzo">
+                  <div class="card-body">
+                    <h5 class="card-title">Garbanzo</h5>
+                    <p class="card-text desktop-small-regular">Este alimento es usado con frecuencia para elaborar platillos orientales, con fin...</p>
+                    <a href="#" class="btn btn-primary w-100 icon">Ver mas detalles</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </main>
+          <div class="d-flex align-items-center justify-content-center mt-5 container__button--fluid">
+            <a href="#" class="btn btn-outline-primary">Ver toda la lista de productos</a>
+          </div>
+        </div>
+    </section>
+    <section class="section main__padding bg-2">
+        <div class="container">
+          <h4 class="h4 text-center"> 
+            Algunas de nuestras recetas preferidas
+          </h4>
+          <p class="desktop-text-regular text-center mt-3">
+            Conoce las recetas elaboradas con ingredientes 100% de origen Peruano
+          </p>
+          <main class="container mt-4 gap-3 card__container">
+            <div class="row">
+              <div class="col card__foood">
+                <img src="./img/Ceviche.png" class="img-fluid" alt="Ceviche">
+                <section class="container__card">
+                  <h2>Cevice Peruano</h2>
+                  <div class="container__stars">
+                    <img src="./img/Star.svg" alt="">
+                    <p>
+                      3.9 (432 Calificaciones)
+                    </p>
+                  </div>
+                </section>
+              </div>
+              <div class="col card__foood">
+                <img src="./img/Sopa esparragos.png" class="img-fluid" alt="Sopa esparragos">
+                <section class="container__card">
+                  <h2>Sopa esparragos</h2>
+                  <div class="container__stars">
+                    <img src="./img/Star.svg" alt="">
+                    <p>
+                      4.9 (432 Calificaciones)
+                    </p>
+                  </div>
+                </section>
+              </div>
+              <div class="col card__foood">
+                <img src="./img/Ensalada.png" class="img-fluid" alt="Ensalada">
+                <section class="container__card">
+                  <h2>Ensalada</h2>
+                  <div class="container__stars">
+                    <img src="./img/Star.svg" alt="">
+                    <p>
+                      2.4 (100 Calificaciones)
+                    </p>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col card__foood">
+                <img src="./img/Jugo.png" class="img-fluid" alt="Jugo">
+                <section class="container__card">
+                  <h2>Jugo</h2>
+                  <div class="container__stars">
+                    <img src="./img/Star.svg" alt="">
+                    <p>
+                      3.9 (432 Calificaciones)
+                    </p>
+                  </div>
+                </section>
+              </div>
+              <div class="col card__foood">
+                <img src="./img/Jugo maíz morado.png" class="img-fluid" alt="Jugo maíz morado">
+                <section class="container__card">
+                  <h2>Jugo maíz morado</h2>
+                  <div class="container__stars">
+                    <img src="./img/Star.svg" alt="">
+                    <p>
+                      3.9 (432 Calificaciones)
+                    </p>
+                  </div>
+                </section>
+              </div>
+              <div class="col card__foood">
+                <img src="./img/Jugo frutilla.png" class="img-fluid" alt="Jugo frutilla">
+                <section class="container__card">
+                  <h2>Jugo frutilla</h2>
+                  <div class="container__stars">
+                    <img src="./img/Star.svg" alt="">
+                    <p>
+                      3.9 (432 Calificaciones)
+                    </p>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </main>
+          <div class="d-flex align-items-center justify-content-center mt-5 container__button--fluid">
+            <a href="#" class="btn btn-outline-primary">Ver galeria completa de platillos</a>
+          </div>
+        </div>
+    </section>
+    <section class="banner"> 
+      <div class="container-sm text-center">
+        <h1 class="text-white d-flex align-items-center justify-content-center">Suscribete y obtén las mejores
+          recetas Peruanas</h1>
+        <div class="input-group flex-nowrap container__form mx-auto mt-5 input-group-lg">
+          <input type="text" class="form-control" placeholder="Ingresa tu correo electronico...">
+          <span class="input-group-text d-flex btn btn-primary" id="addon-wrapping">
+            <img class="icon-flat" src="./img/icon flat.png" />
+          </span>
+        </div>
+      </div>
+    </section>
+    <section class="bg-1 section main__padding">
+      <div class="container">
+        <h4 class="h4 text-center"> 
+          ¿Dónde se pueden adquirir los productos de Foodealth?
+        </h4>
+        <iframe class="iframe w-100 mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52501.445342036764!2d-77.05036420323171!3d-12.03021151191423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2zTGltYSwgUGVyw7o!5e0!3m2!1ses-419!2smx!4v1638762234464!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+    <footer class="p-4 bg-3">
+      <div class="container d-flex justify-content-between footer__container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo footer.png" alt="/" >
+        </a>
+        <div class="d-flex align-items-center">
+          <ul class="d-flex list-unstyled m-0 list__footer">
+            <li class="mx-2">
+              <a href="https://facebook.com">
+                <img src="./img/brand/facebook.png" alt="">
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="https://twitter.com">
+                <img src="./img/brand/twitter.png" alt="">
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="https://instagram.com">
+                <img src="./img/brand/instagram.png" alt="">
+              </a>
+            </li>
+          </ul>
+          <div class="vr mx-4 divider__foooter"></div>
+            <p class="desktop-smaller-regular m-0 color-footer ">
+              © Foodealth 2021 - Todos los derechos reservados
+            </p>
+        </div>
+      </div>
+    </footer>
 </body>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
 </html>
+
+<script>
+
+  let state = true
+
+  const toggle = document.querySelectorAll('.toggle');
+
+  for( let t of toggle )
+  {
+    t.addEventListener('click', () => {
+    
+    const container__menu = document.querySelector('.menu__blur');
+    const hero__container = document.querySelector('.hero__container');
+    const navbar__hide = document.querySelector('.navbar__hide');
+    const navbar__hide__button = document.querySelector('.navbar__hide__button');
+
+    if( state )
+    {
+
+      container__menu.classList.add('show')
+      hero__container.classList.add('hide')
+      navbar__hide.classList.add('hide')
+      navbar__hide__button.classList.add('hide')
+      
+      state = false;
+
+    }
+    else
+    {
+      
+      container__menu.classList.remove('show')
+      hero__container.classList.remove('hide')
+      navbar__hide.classList.remove('hide')
+      navbar__hide__button.classList.remove('hide')
+
+      state = true;
+
+    }
+
+  });
+  }
+  
+
+</script>
